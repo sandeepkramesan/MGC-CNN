@@ -25,10 +25,3 @@ for g in genres:
         #data_fn = base_fn + ".fft"
         np.save(f'fft_extracted/{g}/{filename[:-3].replace(".", "")}.fft', fft_features)
     
-    
-
-
-
-#if __name__ == "__main__":
-#	main()
-	
