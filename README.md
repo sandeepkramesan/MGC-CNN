@@ -34,7 +34,7 @@ Extracts fft values and saves numpy files to ./fft_extracted.
 ```
 python3 cnn_fft.py fft_extracted/
 ```
-Applies Logistic Regression to train and classify; gives prediction accuracy, saves confusion matrix image and model.  
+Applies CNN to train and classify; gives prediction accuracy, saves the model.  
 
 ```
 python3 test.py /home/path/to/your/song/file
